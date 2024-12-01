@@ -1,6 +1,6 @@
 # Max Basev - Personal Website
 
-🌐 [English](#english) | [Русский](#russian)
+🌐 [English](https://m-b.one/) | [Русский](https://m-b.one/ru.html)
 
 ## English
 
