@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://m-b.one/sitemap.xml
+
+# Disallow admin areas
+Disallow: /api/
+Disallow: /_next/
+
+# Crawl delay
+Crawl-delay: 1 
