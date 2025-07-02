@@ -39,7 +39,7 @@ export default function EnglishOfferPage() {
 			<header id="header" className={isMenuOpen ? 'mobile-nav-active' : ''}>
 				<div className="d-flex flex-column">
 					<div className="profile">
-						<img src="/MB_Logo.png" alt="Max Basev Logo" className="img-fluid rounded-circle" />
+						<img src="/MB_Logo.png" alt="Max Basev Logo" className="img-fluid rounded-circle" width="120" height="120" />
 						<h1 className="text-light">
 							<Link href="/en">Max Basev</Link>
 						</h1>

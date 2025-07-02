@@ -39,7 +39,7 @@ export default function EnglishPage() {
 			<header id="header" className={isMenuOpen ? 'mobile-nav-active' : ''}>
 				<div className="d-flex flex-column">
 					<div className="profile">
-						<img src="/MB_Logo.png" alt="Max Basev Logo" className="img-fluid rounded-circle" />
+						<img src="/MB_Logo.png" alt="Max Basev Logo" className="img-fluid rounded-circle" width="120" height="120" />
 						<h1 className="text-light">
 							<Link href="/">Max Basev</Link>
 						</h1>
@@ -79,7 +79,7 @@ export default function EnglishPage() {
 
 						<div className="row">
 							<div className="col-lg-4">
-								<img src="/img/profile-img.jpg" className="img-fluid" alt="" />
+								<img src="/img/profile-img.jpg" className="img-fluid" alt="" width="400" height="400" />
 							</div>
 							<div className="col-lg-8 pt-4 pt-lg-0 content">
 								<h3>Software developer</h3>
