@@ -1,0 +1,91 @@
+{
+	"navigation": {
+		"english": "English",
+		"russian": "Russian",
+		"offer": "Public Offer Agreement"
+	},
+	"about": {
+		"title": "PE Basev Maksim Igorevich",
+		"subtitle": "Software development",
+		"role": "Software developer",
+		"birthday": "Birthday:",
+		"website": "Website:",
+		"phone": "Phone:",
+		"city": "City:",
+		"age": "Age:",
+		"degree": "Degree:",
+		"email": "Email:",
+		"description": "I'm Max Basev, a professional software developer specializing in building custom software solutions, web applications, and services for a wide range of industries. I use modern technologies and best programming practices to ensure all my projects meet the highest standards of quality, security, and reliability.",
+		"services": "Services",
+		"servicesList": [
+			"Custom software development for businesses",
+			"Web application development and support",
+			"Optimization and improvement of existing software products",
+			"Technical consulting and software architecture advisory"
+		]
+	},
+	"contact": {
+		"title": "Contacts",
+		"telegram": "Telegram:",
+		"email": "Email:",
+		"phone": "Phone:"
+	},
+	"banking": {
+		"title": "Banking Details",
+		"beneficiaryName": "Benefciary name:",
+		"beneficiaryAccount": "Benefciary account #:",
+		"accountCurrency": "Account currency:",
+		"beneficiaryBank": "Benefciary Bank:",
+		"correspondent1": "Correspondent bank #1",
+		"correspondent1Note": "For payments from countries of European Economic Zone, Switzerland and Great Britain",
+		"correspondent2": "Correspondent bank #2"
+	},
+	"offer": {
+		"title": "PUBLIC OFFER AGREEMENT",
+		"section1": {
+			"title": "1. General Provisions",
+			"text1": "1.1. This document is an offer by Private Entrepreneur Basev Maksim Igorevich, hereinafter referred to as the \"Service Provider,\" to conclude a service agreement under the conditions specified below.",
+			"text2": "1.2. This agreement is a public offer in accordance with the Civil Code of the Kyrgyz Republic. Acceptance of this offer means the conclusion of an agreement on the terms set out herein."
+		},
+		"section2": {
+			"title": "2. Subject of the Agreement",
+			"text1": "2.1. The Service Provider undertakes to provide services in software development, and the Client undertakes to accept these services and pay for them in accordance with the terms of this agreement."
+		},
+		"section3": {
+			"title": "3. Procedure for Concluding the Agreement",
+			"text1": "3.1. The agreement is considered concluded from the moment the Client accepts the terms of this offer by paying for the services of the Service Provider."
+		},
+		"section4": {
+			"title": "4. Rights and Obligations of the Parties",
+			"text1": "4.1. The Service Provider undertakes to: Provide the services in a timely manner and with proper quality.",
+			"text2": "4.2. The Client undertakes to: Pay for the services of the Service Provider in full and within the established time frames."
+		},
+		"section5": {
+			"title": "5. Cost and Payment Procedure",
+			"text1": "5.1. The cost of services is determined based on a price list.",
+			"text2": "5.2. Payment is made to the following bank account of the Service Provider:"
+		},
+		"section6": {
+			"title": "6. Liability of the Parties",
+			"text1": "6.1. For failure to perform or improper performance of their obligations, the parties shall be liable in accordance with the legislation of the Kyrgyz Republic."
+		},
+		"section7": {
+			"title": "7. Final Provisions",
+			"text1": "7.1. This agreement is valid from the moment of its conclusion until the full fulfillment of the obligations by both parties.",
+			"text2": "7.2. Any disputes and disagreements shall be resolved through negotiations. If no agreement can be reached, the disputes shall be resolved in court at the location of the Service Provider."
+		}
+	},
+	"personal": {
+		"name": "Max Basev",
+		"birthdayValue": "8 January 1991",
+		"websiteValue": "m-b.one",
+		"phoneValue": "+996 502560036",
+		"cityValue": "Bishkek, Kyrgyzstan",
+		"ageValue": "33",
+		"degreeValue": "Master",
+		"emailValue": "connect@m-b.one"
+	},
+	"footer": {
+		"copyright": "2020 - 2024 © MaxBasev"
+	}
+}
