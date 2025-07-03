@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 		description: 'Условия и правила оказания услуг разработки программного обеспечения от ИП Басев Максим Игоревич.',
 		images: [
 			{
-				url: 'https://m-b.one/img/profile-img.jpg',
+				url: 'https://m-b.one/img/profile-img.webp',
 				width: 400,
 				height: 400,
 				alt: 'Максим Басев - Программист',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 		card: 'summary_large_image',
 		title: 'Договор оферты - Максим Басев',
 		description: 'Условия и правила оказания услуг разработки ПО.',
-		images: ['https://m-b.one/img/profile-img.jpg'],
+		images: ['https://m-b.one/img/profile-img.webp'],
 		creator: '@maxbasev',
 	},
 

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 		description: 'Разработка программного обеспечения на заказ, веб-приложения и техническое консультирование. Базируется в Бишкеке, Кыргызстан.',
 		images: [
 			{
-				url: 'https://m-b.one/img/profile-img.jpg',
+				url: 'https://m-b.one/img/profile-img.webp',
 				width: 400,
 				height: 400,
 				alt: 'Максим Басев - Программист',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 		card: 'summary_large_image',
 		title: 'Максим Басев - Программист',
 		description: 'Профессиональный программист, предлагающий решения для разработки ПО и веб-приложений.',
-		images: ['https://m-b.one/img/profile-img.jpg'],
+		images: ['https://m-b.one/img/profile-img.webp'],
 		creator: '@maxbasev',
 	},
 

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 		description: 'Terms and conditions for software development services provided by PE Basev Maksim Igorevich.',
 		images: [
 			{
-				url: 'https://m-b.one/img/profile-img.jpg',
+				url: 'https://m-b.one/img/profile-img.webp',
 				width: 400,
 				height: 400,
 				alt: 'Max Basev - Software Developer',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 		card: 'summary_large_image',
 		title: 'Public Offer Agreement - Max Basev',
 		description: 'Terms and conditions for software development services.',
-		images: ['https://m-b.one/img/profile-img.jpg'],
+		images: ['https://m-b.one/img/profile-img.webp'],
 		creator: '@maxbasev',
 	},
 

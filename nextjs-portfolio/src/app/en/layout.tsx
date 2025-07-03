@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 		description: 'Custom software development, web applications, and technical consulting services. Based in Bishkek, Kyrgyzstan.',
 		images: [
 			{
-				url: 'https://m-b.one/img/profile-img.jpg',
+				url: 'https://m-b.one/img/profile-img.webp',
 				width: 400,
 				height: 400,
 				alt: 'Max Basev - Software Developer',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 		card: 'summary_large_image',
 		title: 'Max Basev - Software Developer',
 		description: 'Professional software developer offering custom software solutions and web development services.',
-		images: ['https://m-b.one/img/profile-img.jpg'],
+		images: ['https://m-b.one/img/profile-img.webp'],
 		creator: '@maxbasev',
 	},
 

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 		description: 'Custom software development, web applications, and technical consulting services. Based in Bishkek, Kyrgyzstan.',
 		images: [
 			{
-				url: 'https://m-b.one/img/profile-img.jpg',
+				url: 'https://m-b.one/img/profile-img.webp',
 				width: 400,
 				height: 400,
 				alt: 'Max Basev - Software Developer',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 		card: 'summary_large_image',
 		title: 'Max Basev - Software Developer',
 		description: 'Professional software developer offering custom software solutions and web development services.',
-		images: ['https://m-b.one/img/profile-img.jpg'],
+		images: ['https://m-b.one/img/profile-img.webp'],
 		creator: '@maxbasev',
 	},
 
@@ -90,8 +90,9 @@ export default function RootLayout({
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
 
-				{/* Preload critical images */}
-				<link rel="preload" as="image" href="/img/profile-img.jpg" />
+				{/* Preload critical images - WebP first, then JPEG fallback */}
+				<link rel="preload" as="image" href="/img/profile-img.webp" type="image/webp" />
+				<link rel="preload" as="image" href="/img/profile-img.jpg" type="image/jpeg" />
 
 				{/* Optimized CSS loading with font-display fallback */}
 				<link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" as="style" />
@@ -133,7 +134,7 @@ export default function RootLayout({
 							"alternateName": "Maksim Basev",
 							"description": "Professional software developer specializing in custom software development and web applications",
 							"url": "https://m-b.one",
-							"image": "https://m-b.one/img/profile-img.jpg",
+							"image": "https://m-b.one/img/profile-img.webp",
 							"sameAs": [
 								"https://t.me/maxbasev",
 								"https://github.com/maxbasev"
@@ -169,7 +170,7 @@ export default function RootLayout({
 							"alternateName": "Max Basev Software Development",
 							"url": "https://m-b.one",
 							"logo": "https://m-b.one/MB_Logo.png",
-							"image": "https://m-b.one/img/profile-img.jpg",
+							"image": "https://m-b.one/img/profile-img.webp",
 							"description": "Professional software development services including custom software, web applications, optimization and technical consulting",
 							"address": {
 								"@type": "PostalAddress",
