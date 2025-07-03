@@ -1,28 +1,21 @@
 'use client';
-import { useState, useEffect } from 'react';
+import { useState, useCallback } from 'react';
 import Link from 'next/link';
 
 export default function RussianOfferPage() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
-	const [mounted, setMounted] = useState(false);
 
-	useEffect(() => {
-		setMounted(true);
-	}, []);
-
-	useEffect(() => {
-		if (mounted) {
-			if (isMenuOpen) {
+	const toggleMenu = useCallback(() => {
+		setIsMenuOpen(prev => {
+			const newState = !prev;
+			if (newState) {
 				document.body.classList.add('mobile-nav-active');
 			} else {
 				document.body.classList.remove('mobile-nav-active');
 			}
-		}
-	}, [isMenuOpen, mounted]);
-
-	if (!mounted) {
-		return null;
-	}
+			return newState;
+		});
+	}, []);
 
 	return (
 		<div>
@@ -30,7 +23,7 @@ export default function RussianOfferPage() {
 			<button
 				type="button"
 				className={`mobile-nav-toggle d-xl-none`}
-				onClick={() => setIsMenuOpen(!isMenuOpen)}
+				onClick={toggleMenu}
 			>
 				<i className="fa fa-bars"></i>
 			</button>
