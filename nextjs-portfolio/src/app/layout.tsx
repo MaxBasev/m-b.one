@@ -78,13 +78,7 @@ export default function RootLayout({
 				<meta name="msapplication-TileColor" content="#149ddd" />
 				<meta name="format-detection" content="telephone=no" />
 
-				{/* Canonical URL */}
-				<link rel="canonical" href="https://m-b.one" />
-
-				{/* Alternate languages */}
-				<link rel="alternate" hrefLang="en" href="https://m-b.one/en" />
-				<link rel="alternate" hrefLang="ru" href="https://m-b.one/ru" />
-				<link rel="alternate" hrefLang="x-default" href="https://m-b.one/en" />
+				{/* Alternate languages - moved to individual layouts */}
 
 				{/* DNS prefetch for external domains */}
 				<link rel="dns-prefetch" href="//fonts.googleapis.com" />
