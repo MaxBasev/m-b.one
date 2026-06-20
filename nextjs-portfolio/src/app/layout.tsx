@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 	authors: [{ name: 'Max Basev', url: 'https://m-b.one' }],
 	creator: 'Max Basev',
 	publisher: 'Max Basev',
-	robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+	robots: 'noindex, nofollow',
 
 	// OpenGraph
 	openGraph: {

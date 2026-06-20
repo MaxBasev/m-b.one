@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 	authors: [{ name: 'Максим Басев', url: 'https://m-b.one' }],
 	creator: 'Максим Басев',
 	publisher: 'Максим Басев',
-	robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+	robots: 'noindex, nofollow',
 
 	// OpenGraph
 	openGraph: {
