@@ -122,7 +122,7 @@ export default function RussianOfferPage() {
 			<footer id="footer">
 				<div className="container">
 					<div className="copyright">
-						2018 - 2025 &copy; MaxBasev
+						2018 - 2026 &copy; MaxBasev
 					</div>
 				</div>
 			</footer>

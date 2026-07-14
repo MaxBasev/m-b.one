@@ -104,7 +104,7 @@ export default function RussianPage() {
 										<ul>
 											<li>
 												<i className="fa fa-chevron-right"></i>
-												<strong>Возраст:</strong> 34
+												<strong>Возраст:</strong> 35
 											</li>
 											<li>
 												<i className="fa fa-chevron-right"></i>
@@ -204,7 +204,7 @@ export default function RussianPage() {
 			<footer id="footer">
 				<div className="container">
 					<div className="copyright">
-						2018 - 2025 &copy; MaxBasev
+						2018 - 2026 &copy; MaxBasev
 					</div>
 				</div>
 			</footer>
